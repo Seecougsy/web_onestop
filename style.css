@@ -1,0 +1,130 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gantari', sans-serif;
+
+}
+
+@font-face {
+    font-family: 'Gantari';
+    src: url('url(2024-11-17 17-49-14.mkv)');
+}
+
+body
+{   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('OneStop_Background.png');
+    background-size: cover;
+    position: relative;
+}
+
+header
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding:5px 80px 5px 40px ;
+    background: #281B3F;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+
+.logo
+{   
+    font-size: 3em;
+    color: #fff;
+    user-select: none;
+    justify-content: flex-start;
+}
+
+.navigation 
+{
+    display: flex;
+    justify-content: center; 
+}
+
+.navigation a
+{   
+    position: relative;
+    font-size: 1.5em;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 60px;
+}
+
+.icons {
+    display: flex;
+    justify-content: flex-end; 
+    gap: 60px;
+}
+
+.fa-solid.fa-magnifying-glass
+{
+    color: #fff;
+    font-size: 1.5em;
+}
+
+.fa-solid.fa-cart-shopping
+{
+    color: #fff;
+    font-size: 1.5em;
+}
+
+.announcement {
+    margin-top: 150px; 
+    display: flex;
+    justify-content: center;  
+    align-items: center;  
+    height: 100vh;  
+    margin-top: 70px;
+    width: auto;  
+    height: 600px;
+    position: relative;
+    font-family: 'Gantari', sans-serif;
+}
+
+.announcement-text
+{   
+    width: 18%;
+    height: 60%;
+    position: absolute;
+    bottom: 80px;
+    left: 60px;
+    font-size: 60px;
+    font-weight: bold;
+    color: #00BBFF;
+}
+
+
+.announcement-container
+{
+    font-family: 'Gantari', sans-serif;
+}
+
+.button
+{   
+    width: 250px;
+    position: absolute;
+    bottom: 100px;
+    left: 65px;
+    font-size: 30px;
+    border-radius: 50px;
+    padding: 5px;
+}
+
+.chatbot
+{
+
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+}
